@@ -4,6 +4,13 @@
 /node_modules
 /.pnp
 .pnp.js
+*.jpg
+*.png
+*.svg
+*.woff2
+*.eot
+*.ttf
+*.woff
 
 # testing
 /coverage
