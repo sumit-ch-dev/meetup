@@ -10,9 +10,9 @@ class SpeakerList extends Component {
         })
         return (
             <div>
-                <div>
-                    <div class="row me-row content-ct speaker" id="speakers">
-                        <h2 class="row-title">Meet the Speakers</h2>
+                <div className="container container-fluid">
+                    <div className="row me-row content-ct speaker" id="speakers">
+                        <h2 className="row-title">Meet the Speakers</h2>
                         {speaker}
                     </div>
                 </div>

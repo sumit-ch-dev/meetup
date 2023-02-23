@@ -5,6 +5,7 @@ import Description from './components/body/Description';
 import Footer from './components/footer/Footer';
 import SpeakerList from "./components/body/SpeakerList";
 import Tickets from "./components/body/Tickets";
+import EventSchedule from "./components/body/EventSchedule";
 
 
 const MainComponent = () => {
@@ -15,6 +16,7 @@ const MainComponent = () => {
             <Description/>
             <SpeakerList/>
             <Tickets/>
+            <EventSchedule/>
             <Footer/>
         </div>
     )
